@@ -1,0 +1,89 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    background-image: url("image3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+h1{
+    font-size: 50px;
+}
+.you{
+    color: aqua;
+}
+.side{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.side img{
+    width: 100%;
+    border-radius: 10px;
+}
+  
+
+.link-button{
+    text-decoration: none;
+    background-color: rgba(0, 255, 76, 0.712);
+    padding: 10px 20 px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+}
+h2{
+    font-size: 30px;
+    color: teal;
+}
+p{
+    color: aquamarine;
+    text-decoration: none;
+    font-weight: 700;
+    
+
+}
+.full-width{
+    
+    box-shadow: 10px 20px 40px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    width: 27%;
+    margin-left: 50px;
+    padding-left: 10px ;
+    color: dodgerblue;
+    padding: auto 0;
+}
+#has{
+    border-left: 7px solid seagreen ;
+    border-right: 7px solid seagreen;
+}
+footer p{
+    font-size: 10px;
+    text-align: center;
+
+}
+.ja{
+    
+    text-align: center;
+}
+footer{
+    margin-top: 50px;
+}
+
+.flex{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
