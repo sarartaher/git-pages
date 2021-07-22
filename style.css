@@ -14,14 +14,23 @@ h1{
 .you{
     color: aqua;
 }
+
+.top-icon{
+    height: 400px;
+    width: 450px;
+    margin-top: 25px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
 .side{
     width: 40%;
-    float: left;
+    /* float: left; */
     margin-left: 5%;
     padding-left: 2%;
 }
-.side img{
-    width: 100%;
+.img{
     border-radius: 10px;
 }
   
@@ -54,7 +63,6 @@ p{
     justify-content: center;
     min-height: 300px;
     width: 27%;
-    margin-left: 50px;
     padding-left: 10px ;
     color: dodgerblue;
     padding: auto 0;
@@ -67,6 +75,11 @@ footer p{
     font-size: 10px;
     text-align: center;
 
+}
+.mdl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .ja{
     
@@ -86,4 +99,37 @@ main{
     align-items: center;
     flex-direction: column;
     margin-bottom: 100px;
+}
+
+
+@media only screen and (max-width: 688px) {
+   .flex{
+       display: block;
+       width: 100%;
+   }
+
+   .full-width{
+       width: 100%;
+       display: block;
+       padding: 10px;
+       margin: 10px auto;
+   }
+
+   .mdl{
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+   }
+
+   .top-icon{
+    height: 144px;
+    width: 157px;
+    margin-top: 70px;
+}
+
+.side{
+    width: 100%;
+}
 }
